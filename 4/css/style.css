@@ -1,0 +1,131 @@
+/*Variables*/
+
+
+
+.main-header {
+  min-width: 1440px;
+  background-color: #EEEEEE;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.navigation-link {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #FB565A;
+  text-decoration: none;
+
+
+}
+
+body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  background-color: #FFFFFF;
+}
+
+.order {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #283136;
+}
+
+.best-conditions {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.conditions-item {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.percent {
+  font-size: 45px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #000000;
+
+
+}
+.contacts {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.contacts-name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+}
+  .contacts-adress {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666666;
+  }
+
+.footer-proposal {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+
+
+}
+.footer-benefit {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.main-name {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+ .name-catalog {
+ font-size: 18px;
+ line-height: 30px;
+ font-weight: 700;
+ color: #000000;
+ }
