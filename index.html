@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <title>nerds</title>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,500;1,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="icon" href="favicon.ico">
@@ -16,17 +16,17 @@
             <img src="img/nerds-logo.svg" width="160" height="65" alt="логотип nerds">
             </a>
             <ul class="site-navigation">
-               <li><a href="blank.html">Студия</a></li>
-               <li><a href="blank.html">Клиенты</a></li>
-               <li><a class="login-link" href="catalog.html">Магазин</a></li>
-               <li><a href="blank.html">Контакты</a></li>
+               <li><a class="navigation-link" href="blank.html">Студия</a></li>
+               <li><a class="navigation-link" href="blank.html">Клиенты</a></li>
+               <li><a class="navigation-link" href="catalog.html">Магазин</a></li>
+               <li><a class="navigation-link" href="blank.html">Контакты</a></li>
             </ul>
             <a href="blank.html"><img src="img/Shape@1x.png" width="15" height="11" alt="логотип-корзина"/></a>
-            <a href="blank.html">Корзина</a>
+            <a class="navigation-link" href="blank.html">Корзина</a>
          </nav>
       </header>
       <main class="container">
-         <h1>Долго, дорого, скрупулезно.</h1>
+         <h1 class="main-title">Долго, дорого, скрупулезно.</h1>
          Математически выверенный дизайн
          для вашего сайта или мобильного приложения.
          <ul>
@@ -39,6 +39,7 @@
                <img src="img/nerds-index-slide1-1.jpg" width="760" height="431" alt="картинка телефонов"/>
             </li>
             </ul>-->
+            <div class="index-colums">
          <section class="features">
             <ul class="features-list">
                <li class="feature-item">
@@ -67,6 +68,7 @@
                </li>
             </ul>
          </section>
+       </div>
          <section class="benefit">
             <h2>Мы - маленькая, но гордая
                дизайн-студия из Касноярска
@@ -79,7 +81,7 @@
                   </p>
                </li>
             </ul>
-            <h3>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ</h3>
+            <h3 class="order">ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ</h3>
             <p>
                - Веб-сайтов любой сложности
                - Мобильных приложений для IOS и Android
@@ -89,22 +91,22 @@
          <section>
             <img src="img/nerds-illustration-1.svg" width="360" height="208" alt="логотип nerds"/>
             <ul>
-               <li>
+               <li class="best-conditions">
                   С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЕМ:
                </li>
             </ul>
-            <ul>
+            <ul class="conditions-item">
                <li>
-                  <h4>
+                  <h4 class="percent">
                      146%
                   </h4>
-                  <p>
+                  <p >
                      Уровень
                      самоотдачи
                   </p>
                </li>
                <li>
-                  <h4>
+                  <h4 class="percent">
                      100%
                   </h4>
                   <p>
@@ -113,7 +115,7 @@
                   </p>
                </li>
                <li>
-                  <h4>
+                  <h4 class="percent">
                      50%
                   </h4>
                   <p>
@@ -145,10 +147,10 @@
 
 </section>
          <section class="contacts">
-            <h3>NЁRDS DESIGN STUDIO</h3>
-            <p>191186, Санкт-Петербург,
+            <h3 class="contacts-name">NЁRDS DESIGN STUDIO</h3>
+            <p class="contacts-adress">191186, Санкт-Петербург,
                ул. Б. Конюшенная, д. 19/8
-               тел.<a class="contacts-phone" href="tel: +78122757575"> +7 (812) 275-75-75</a>
+               тел. +7 (812) 275-75-75</a>
             </p>
             <a class="button" href="blank.html">Напишите нам</a>
          </section>
@@ -189,9 +191,9 @@
       </main>
       <footer class="main-footer">
          <h2>Карта проезда</h2>
-         <section class="footer-benefit">
+         <section class="footer-proposal">
             <h2>Давайте дружить, это выгодно!</h2>
-            <p>
+            <p class="footer-discount">
                Скидка 10% для друзей из социальных сетей.
             </p>
          </section>
