@@ -53,6 +53,14 @@ outline: 5px solid rgba(0, 255, 0, 0.3);
 width:1440px;
 }
 
+.form-filter {
+text-align:left;
+weight:208;
+height:418;
+margin-bottom: 80px;
+outline: 5px solid rgba(255, 0, 0 , 0.3);
+}
+
 .main-navigation-wrapper {
 display: grid;
 grid-template-columns: 1fr min-content;
@@ -67,7 +75,6 @@ line-height: 30px;
 font-weight: 500;
 color:var(--basic-black);
 text-decoration: none;
-
 text-transform: uppercase;
 }
 
@@ -75,6 +82,7 @@ text-transform: uppercase;
 outline: 5px solid rgba(0, 255, 255, 0.3);
 outline-offset: -5px;
 }
+
 .main-title {
 font-size: 55px;
 line-height: 55px;
@@ -110,6 +118,7 @@ background-color:var(--basic-red);
 }
 
 .button-red {
+color:var(--basic-white);
 background-color:var(--basic-red);
 }
 
@@ -170,6 +179,7 @@ min-height: 100%;
 display: grid;
 grid-template-rows: min-content 1fr min-content;
 align-content: start;
+}
 
 .main-footer {
 min-width: 1440px;
@@ -186,13 +196,39 @@ text-transform: uppercase;
 }
 
 .features {
-outline: 5px solid rgba(255, 0, 0 , 0.3);
 margin-bottom: 80px;
+outline: 5px solid rgba(255, 0, 0 , 0.3);
+}
 
+.features-list {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin: 0;
+padding: 0;
+list-style: none;
+column-gap: 100px;
 }
 
 .feature-item {
-text-align: left;
+text-align: сenter;
+outline: 5px solid rgba(0, 255, 255 , 0.3);
+outline-offset: -5px;
+}
+
+.main-benefit {
+outline: 5px solid rgba(255, 0, 0 , 0.3);
+margin-bottom: 80px;
+}
+
+.benefit-title {
+text-align: сenter;
+outline: 5px solid rgba(0, 255, 255 , 0.3);
+outline-offset: -5px;
+column-gap: 149px;
+}
+
+.benefit-title-2 {
+text-align: сenter;
 outline: 5px solid rgba(0, 255, 255 , 0.3);
 outline-offset: -5px;
 }
@@ -216,11 +252,22 @@ line-height: 45px;
 font-weight: 500;
 color:var(--basic-black);
 }
+
+.logo1 {
+text-align: right;
+outline: 5px solid rgba(0, 255, 255 , 0.3);
+outline-offset: -5px;
+width:360px;
+}
+
 .conditions-list {
 font-size: 16px;
 line-height: 18px;
 font-weight: 400;
 color: var(--basic-dark-gray);
+display: flex;
+text-align: right;
+width:78px;
 }
 
 .percent {
@@ -231,9 +278,15 @@ color:var(--basic-black);
 }
 
 .link-items {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 45px;
+margin: 0;
+padding: 0;
 outline: 5px solid rgba(255, 0, 255, 0.3);
 outline-offset: -5px;
 }
+
 
 .contacts {
 font-size: 18px;
