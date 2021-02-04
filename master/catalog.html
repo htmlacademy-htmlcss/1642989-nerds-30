@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
    <head>
       <meta charset="utf-8">
-      <title>Nerds</title>
+      <title>nerds</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" href="favicon.ico">
      <base href="https://htmlacademy-htmlcss.github.io/1642989-nerds-30/master/">
 </head>
-   <body>
+   <body class="page-body">
       <header class ="main-header">
-         <nav>
-            <a href="index.html">
-            <img src="img/nerds-logo.svg" width="160" height="65" alt="логотип nerds"/>
+         <nav class="main-navigation">
+            <a class="main-header-logo">
+            <img src="img/nerds-logo.svg" width="160" height="65" alt="логотип nerds">
             </a>
-            <ul>
-               <li><a href="blank.html">Студия</a></li>
-               <li><a href="blank.html">Клиенты</a></li>
-               <li><a>Магазин</a></li>
-               <li><a href="blank.html">Контакты</a></li>
+            <ul class="site-navigation">
+              <li><a class="navigation-link" href="blank.html">Студия</a></li>
+              <li><a class="navigation-link" href="blank.html">Клиенты</a></li>
+               <li><a >Магазин</a></li>
+               <li><a class="navigation-link" href="blank.html">Контакты</a></li>
             </ul>
-            <a href="blank.html">Корзина</a>
+            <a href="blank.html"><img src="img/Shape@1x.png" width="15" height="11" alt="логотип-корзина"/></a>
+            <a class="navigation-link" href="blank.html">Корзина</a>
          </nav>
       </header>
       <main>
-         <h1>Магазин готовых шаблонов</h1>
+         <h1 class="main-name" >Магазин готовых шаблонов</h1>
          <section>
             <h2>СТОИМОСТЬ</h2>
             <form method="get" action="https://echo.htmlacademy.ru">
@@ -75,7 +80,7 @@
                      </li>
                   </ul>
                </fieldset>
-               <button type="submit">ПОКАЗАТЬ</button>
+               <button class="button" type="submit">ПОКАЗАТЬ</button>
             </form>
          </section>
          <section>
@@ -83,31 +88,31 @@
             <ul>
                <li>
                   <img src="img/img-sedona-1.jpg" width="359" height="578" alt="макет веб сайта седона "/>
-                  <h3>SEDONA</h3>
+                  <h3 class="name-catalog" >SEDONA</h3>
                   <p>Информационный сайт
                      для туристов
                   </p>
-                  <a href="blank.html">9 900 ₽</a>
+                  <a class="button" href="blank.html">9 900 ₽</a>
                </li>
                <li>
                   <img src="img/img-pink-1.jpg" width="358"
                      height="578" alt="макет веб сайта пинк">
-                  <h3>SEDONA</h3>
+                  <h3  class="name-catalog" >SEDONA</h3>
                   <p>Информационный сайт
                      для туристов
                   </p>
-                  <a href="blank.html">9 900 ₽</a>
+                  <a class="button" href="blank.html">9 900 ₽</a>
                </li>
             </ul>
             <ul>
                <li>
                   <img src="img/img-barbershop-1.jpg" width="358"
                      height="578" alt="макет веб сайта барбершоп">
-                  <h3>SEDONA</h3>
+                  <h3  class="name-catalog" >SEDONA</h3>
                   <p>Информационный сайт
                      для туристов
                   </p>
-                  <a href="blank.html">9 900 ₽</a>
+                  <a class="button" href="blank.html">9 900 ₽</a>
                </li>
                <li>
                   <img src="img/img-mishka-1.jpg" width="359"
@@ -116,27 +121,27 @@
                   <p>Информационный сайт
                      для туристов
                   </p>
-                  <a href="blank.html">9 900 ₽</a>
+                  <a class="button" href="blank.html">9 900 ₽</a>
                </li>
             </ul>
             <ul>
                <li>
                   <img src="img/img-aplus-1.jpg" width="359"
                      height="578" alt="макет веб сайта а плюс">
-                  <h3>SEDONA</h3>
+                  <h3  class="name-catalog" >SEDONA</h3>
                   <p>Информационный сайт
                      для туристов
                   </p>
-                  <a href="blank.html">9 900 ₽</a>
+                  <a class="button" href="blank.html">9 900 ₽</a>
                </li>
                <li>
                   <img src="img/img-kvast-1.jpg" width="359"
                      height="578" alt="макет веб сайта кваст">
-                  <h3>SEDONA</h3>
+                <h3  class="name-catalog" >SEDONA</h3>
                   <p>Информационный сайт
                      для туристов
                   </p>
-                  <a href="blank.html">9 900 ₽</a>
+                  <a class="button" href="blank.html">9 900 ₽</a>
                </li>
             </ul>
          </section>
@@ -146,15 +151,15 @@
                   <a>1</a>
                </li>
                <li>
-                  <a href="#">2</a>
+                  <a href="blank.html">2</a>
                </li>
                <li>
-                  <a href="#">3</a>
+                  <a href="blank.html">3</a>
                </li>
             </ul>
          </section>
       </main>
-      <button type="button">Закрыть</button>
+      <button class="button" type="button">Закрыть</button>
       <footer class="main-footer">
          <h2>Карта проезда</h2>
          <!-- Здесь будет карта -->
@@ -183,7 +188,7 @@
                   </p>
                </li>
             </ul>
-            <a href="blank.html">Отправить</a>
+            <a class="button" href="blank.html">Отправить</a>
          </section>
          <section>
             <ul>
