@@ -10,45 +10,52 @@
 
    </head>
    <body class="page-body">
-      <header class ="main-header">
+      <header class="main-header">
          <nav class="main-navigation">
             <a class="main-header-logo">
             <img src="img/nerds-logo.svg" width="160" height="65" alt="логотип nerds">
             </a>
+            <article class="main-header-bar">
+            <div class="site-navigation-wrapper">
             <ul class="site-navigation">
                <li><a class="navigation-link" href="blank.html">Студия</a></li>
                <li><a class="navigation-link" href="blank.html">Клиенты</a></li>
                <li><a class="navigation-link" href="catalog.html">Магазин</a></li>
                <li><a class="navigation-link" href="blank.html">Контакты</a></li>
             </ul>
-            <a href="blank.html"><img src="img/Shape@1x.png" width="15" height="11" alt="логотип-корзина"/></a>
-            <a class="navigation-link" href="blank.html">Корзина</a>
+            <a class="navigation-backet" href="blank.html">Корзина</a>
+        </div>
+      </article>
          </nav>
       </header>
       <main class="container">
+        <div class="caption">
          <h1 class="main-title">Долго, дорого, скрупулезно.</h1>
-         Математически выверенный дизайн
-         для вашего сайта или мобильного приложения.
-         <ul>
+         <p>Математически выверенный дизайн
+         для вашего сайта или мобильного приложения.</p>
+         <ul class="reset-list">
             <li>
-               <a class="button" href="blank.html">УЗНАТЬ БОЛЬШЕ</a>
+               <a class="button-finde-more" href="blank.html">Узнать больше</a>
             </li>
          </ul>
-         <!--<ul>
+
+         <ul class="reset-list">
             <li>
                <img src="img/nerds-index-slide1-1.jpg" width="760" height="431" alt="картинка телефонов"/>
             </li>
-            </ul>-->
+            </ul>
+          </div>
             <div class="index-colums">
          <section class="features">
-            <ul class="features-list">
+              <div class="features-list">
+                  <ul class="reset-list">
                <li class="feature-item">
                   <img src="img/illustration-1-1@1x.png" width="300" height="146" alt="веб-сайты"/>
-                  <h3>ВЕБ-САЙТЫ</h3>
+                  <h3>Веб-сайты</h3>
                   <p>  Мир никогда не будет прежним
                      после того как увидит ваш сайт!
                   </p>
-                  <a class="button" href="blank.html">ЗАКАЗАТЬ</a>
+                  <a class="button-red button" href="blank.html">Заказать</a>
                </li>
                <li class="feature-item">
                   <img src="img/illustration-2-1.svg" width="300" height="146" alt="приложения"/>
@@ -56,7 +63,7 @@
                   <p>  Покорите топ-10 приложений в
                      AppStore и Google Play
                   </p>
-                  <a class="button" href="blank.html">ЗАКАЗАТЬ</a>
+                  <a class="button-green button" href ="blank.html">Заказать</a>
                </li>
                <li class="feature-item">
                   <img src="img/illustration-3-1@1x.png" width="300" height="146" alt="презентации"/>
@@ -64,16 +71,18 @@
                   <p>  Вы даже не подозреваете,
                      насколько вы изумительны!
                   </p>
-                  <a class="button" href="blank.html">ЗАКАЗАТЬ</a>
+                  <a class="button-yellow button" href="blank.html">Заказать</a>
                </li>
-            </ul>
+             </ul>
+            </div>
          </section>
        </div>
-         <section class="benefit">
+       <div class="main-benefit">
+         <section class="benefit-title">
             <h2>Мы - маленькая, но гордая
                дизайн-студия из Касноярска
             </h2>
-            <ul>
+            <ul class="reset-list">
                <li class="benefit-item">
                   Исповедуем принципы минимализма и чистоты. Ставим математический расчет
                   превыше креатива. Работаем не покладая рук, как роботы
@@ -90,13 +99,13 @@
          </section>
          <section>
             <img src="img/nerds-illustration-1.svg" width="360" height="208" alt="логотип nerds"/>
-            <ul>
+            <ul class="reset-list">
                <li class="best-conditions">
                   С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЕМ:
                </li>
             </ul>
-            <ul class="conditions-item">
-               <li>
+            <ul class="conditions-list">
+               <li class="reset-list">
                   <h4 class="percent">
                      146%
                   </h4>
@@ -105,7 +114,7 @@
                      самоотдачи
                   </p>
                </li>
-               <li>
+               <li class="reset-list">
                   <h4 class="percent">
                      100%
                   </h4>
@@ -114,7 +123,7 @@
                      сроков
                   </p>
                </li>
-               <li>
+               <li class="reset-list">
                   <h4 class="percent">
                      50%
                   </h4>
@@ -125,9 +134,11 @@
                </li>
             </ul>
          </section>
-
-         <section>
-            <ul>
+</div>
+</main>
+         <footer class="main-footer">
+         <section class="link-items">
+            <ul class="reset-list">
                <li>
                   <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/Group-5.png" width="199" height="68" alt="логотип-htmlacademy"></a>
                </li>
@@ -142,6 +153,9 @@
                </li>
             </ul>
          </section>
+
+
+
          <section class="modal modal map">
            <!-- Здесь будет карта -->
 
@@ -150,7 +164,8 @@
             <h3 class="contacts-name">NЁRDS DESIGN STUDIO</h3>
             <p class="contacts-adress">191186, Санкт-Петербург,
                ул. Б. Конюшенная, д. 19/8
-               тел. +7 (812) 275-75-75</a>
+               тел.<a class="contacts-phone" href="tel:+78122757575">+7 (812) 275-75-75</a>
+
             </p>
             <a class="button" href="blank.html">Напишите нам</a>
          </section>
@@ -160,7 +175,7 @@
      <button class="modal-close" type="button">Закрыть</button>
    <form class="login-form"action="https://echo.htmlacademy.ru" method="post">
    <p>
-        <label for="contact-name">Ваше имя</label>
+        <label for ="contact-name">Ваше имя</label>
         <input id="contact-name" type="text" name="name" placeholder="Имя Фамилия">
       </p>
       <p>
@@ -176,7 +191,7 @@
 </section>
 -->
          <section>
-            <ul>
+            <ul class="reset-list">
                <li>
                   <a href="#">Вконтакте</a>
                </li>
@@ -188,16 +203,12 @@
                </li>
             </ul>
          </section>
-      </main>
-      <footer class="main-footer">
-         <h2>Карта проезда</h2>
          <section class="footer-proposal">
             <h2>Давайте дружить, это выгодно!</h2>
-            <p class="footer-discount">
+            <p class="footer-benefit">
                Скидка 10% для друзей из социальных сетей.
             </p>
          </section>
       </footer>
-      <p><a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a></p>
    </body>
 </html>
