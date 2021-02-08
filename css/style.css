@@ -16,7 +16,10 @@
 .container {
 margin: 0 auto;
 width:1440px;
+outline: 5px solid rgba(0, 8, 255, 0.7);
+outline-offset: -5px;
 }
+
 
 .catalogs {
 outline: 5px solid rgba(255, 0, 0, 0.3);
@@ -517,6 +520,18 @@ padding: 0;
 margin-bottom: 70px;
 }
 
+.footer-proposal h2 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.footer-proposal section {
+padding-left:140px;
+}
+
+.footer-proposal .icon {
+
+}
 .footer-benefit {
 font-size: 16px;
 line-height: 22px;
@@ -577,4 +592,9 @@ max-width: 150px;
 margin: 0;
 justify-self: end;
 text-align:center;
+}
+
+.footer-proposal .container {
+display: grid;
+grid-template-columns: 260px 660px;
 }
