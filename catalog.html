@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>nerds</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-  </head>
-  <body class="page-body">
-    <header class="main-header">
-      <div class="container">
-        <nav class="main-navigation">
+   <head>
+      <meta charset="utf-8">
+      <title>nerds</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" href="favicon.ico">
+   </head>
+   <body class="page-body">
+      <header class="main-header">
+         <div class="container">
+            <nav class="main-navigation">
           <a class="main-header-logo" href="index.html">
 <img src="img/nerds-logo.svg" width="160" height="65" alt="логотип nerds">
 </a>
 <ul class="site-navigation">
-
-            <li><a class="navigation-link" href="blank.html">Студия</a></li>
-            <li><a class="navigation-link" href="blank.html">Клиенты</a></li>
+   <li><a class="navigation-link" href="blank.html">Студия</a></li>
+   <li><a class="navigation-link" href="blank.html">Клиенты</a></li>
             <li><a class="navigation-link" href="catalog.html">Магазин</a></li>
             <li><a class="navigation-link" href="blank.html">Контакты</a></li>
-          </ul>
-          <a class="navigation-backet" href="blank.html">Корзина</a>
-        </nav>
-      </div>
-    </header>
+         </ul>
+         <div class="user-navigation">
+            <a class="navigation-backet" href="blank.html">Корзина</a>
+         </div>
+      </nav>
+   </div>
+</header>
     <main>
       <h1 class="title">Магазин готовых шаблонов</h1>
       <div class="container catalog-article">
         <section>
           <form class="form-filter" method="get" action="https://echo.htmlacademy.ru">
-            <fieldset>
+            <fieldset class="filter-item">
               <legend>Стоимость</legend>
+              <div class="range-filter">
+                        <div class="range-controls">
+                          <div class="scale">
+                            <div class="bar" style="width: 30%; margin-left: 20%"></div>
+                          </div>
+                          <div class="toggle toggle-min" tabindex="0" style="left: 20%"></div>
+                          <div class="toggle toggle-max" tabindex="0" style="left: 50%"></div>
+                        </div>
+                        <div class="price-controls">
+                          <label class="min-price">
+                            от <input type="number" name="min-price" value="0">
+                          </label>
+                          <label class="max-price">
+                            до <input type="number" name="max-price" value="15000">
+                          </label>
+                        </div>
+                      </div>
             </fieldset>
             <fieldset>
               <legend>Сетка:</legend>
