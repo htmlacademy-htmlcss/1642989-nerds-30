@@ -45,11 +45,11 @@
                   <div class="toggle toggle-max" tabindex="0"></div>
                 </div>
                 <div class="price-controls">
-                  <label class="min-price">
-                  от <input type="text" name="min-price" value="0">
+                  <label for="min-price" class="min-price">
+                  от <input id="min-price" type="text" name="min-price" value="0">
                   </label>
-                  <label class="max-price">
-                  до <input type="text" name="max-price" value="15000">
+                  <label for="max-price" class="max-price">
+                  до <input id="max-price" type="text" name="max-price" value="15000">
                   </label>
                 </div>
               </div>
@@ -60,24 +60,24 @@
                 <div class="radio">
                   <ul class="reset-list">
                     <li>
-                      <input class="radio-input visually-hidden" type="radio" name="product-group" value="adaptive" id="adaptive" checked>
                       <label  class="radio-label" for="adaptive">
-                      <span class="radio-marker"></span>
-                      <span>Адаптивная</span>
+                        <input class="radio-input visually-hidden" type="radio" name="product-group" value="adaptive" id="adaptive" checked>
+                        <span class="radio-marker"></span>
+                        <span>Адаптивная</span>
                       </label>
                     </li>
                     <li>
-                      <input class="radio-input visually-hidden" type="radio" name="product-group" value="fix" id="fix">
                       <label  class="radio-label" for="fix">
-                      <span class="radio-marker"></span>
-                      <span>Фиксированная</span>
+                        <input class="radio-input visually-hidden" type="radio" name="product-group" value="fix" id="fix">
+                        <span class="radio-marker"></span>
+                        <span>Фиксированная</span>
                       </label>
                     </li>
                     <li>
-                      <input class="radio-input visually-hidden" type="radio" name="product-group" value="rubber" id="rubber">
                       <label  class="radio-label" for="rubber">
-                      <span class="radio-marker"></span>
-                      <span>Резиновая</span>
+                        <input class="radio-input visually-hidden" type="radio" name="product-group" value="rubber" id="rubber">
+                        <span class="radio-marker"></span>
+                        <span>Резиновая</span>
                       </label>
                     </li>
                   </ul>
@@ -86,25 +86,30 @@
               <fieldset class="checkbox">
                 <legend>Особенности</legend>
                 <div class="checkbox">
-                  <label class="filter-checkbox">Слайдер
-                  <input class="filter-input-checkbox" type="checkbox">
-                  <span class="checkbox-marker"></span>
+                  <label class="filter-checkbox">
+                    Слайдер
+                    <input class="filter-input-checkbox" type="checkbox">
+                    <span class="checkbox-marker"></span>
                   </label>
-                  <label class="filter-checkbox">Блок преимуществ
-                  <input class="filter-input-checkbox" type="checkbox">
-                  <span class="checkbox-marker"></span>
+                  <label class="filter-checkbox">
+                    Блок преимуществ
+                    <input class="filter-input-checkbox" type="checkbox">
+                    <span class="checkbox-marker"></span>
                   </label>
-                  <label class="filter-checkbox">Новости
-                  <input class="filter-input-checkbox" type="checkbox">
-                  <span class="checkbox-marker"></span>
+                  <label class="filter-checkbox">
+                    Новости
+                    <input class="filter-input-checkbox" type="checkbox">
+                    <span class="checkbox-marker"></span>
                   </label>
-                  <label class="filter-checkbox">Галерея
-                  <input class="filter-input-checkbox" type="checkbox">
-                  <span class="checkbox-marker"></span>
+                  <label class="filter-checkbox">
+                    Галерея
+                    <input class="filter-input-checkbox" type="checkbox">
+                    <span class="checkbox-marker"></span>
                   </label>
-                  <label class="filter-checkbox">Корзина
-                  <input class="filter-input-checkbox" type="checkbox">
-                  <span class="checkbox-marker"></span>
+                  <label class="filter-checkbox">
+                    Корзина
+                    <input class="filter-input-checkbox" type="checkbox">
+                    <span class="checkbox-marker"></span>
                   </label>
                 </div>
               </fieldset>
@@ -190,8 +195,8 @@
                   <img src="img/img-mishka-1.jpg" width="359" height="578" alt="макет веб сайта мишка">
                 </div>
                 <div class="active-name-catalog">
-                  <h3  class="name-catalog">mishka</h3>
-                  <p class="text-catalog"><a href="#">Интернет магазин</a><br>
+                  <h3  class="name-catalog"><a href="#">mishka</a></h3>
+                  <p class="text-catalog">Интернет магазин<br>
                     вязаных игрушек
                   </p>
                   <a class="button button-price" href="blank.html">9 900 ₽</a>
